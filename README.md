@@ -81,7 +81,7 @@ namespace Assignment_12_George
 
             // print results
 
-            Console.WriteLine("The adjusted pay is $" + myPayfile.gross_pay + " for " + myPayfile.first_name + " " + myPayfile.last_name);
+            Console.WriteLine("The adjusted pay is $" + myPayfile.gross_pay + " for " + myPayfile.first_name + myPayfile.last_name);
             Console.Write("Press any key to continue...");
             
 
