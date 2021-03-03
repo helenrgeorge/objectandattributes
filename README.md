@@ -4,8 +4,13 @@ using System;
 
 namespace Assignment_12_George
 {
+
+    // create class
+
     class myPayfile
     {
+        // define variables
+
         private string last_name;
         private string first_name;
         private double gross_pay;
@@ -13,6 +18,8 @@ namespace Assignment_12_George
         myPayfile()
         {
         }
+
+        // method to get last name
 
         public string getLast_Name()
 
@@ -22,12 +29,16 @@ namespace Assignment_12_George
             return last_name;
         }
 
+        // method to get first name
+
         public string getFirst_Name()
         {
             Console.Write("Enter the first name ");
             first_name = Console.ReadLine();
             return first_name;
         }
+
+        // method to get gross pay
 
         public double getGross_Pay()
 
@@ -38,6 +49,7 @@ namespace Assignment_12_George
             return gross_pay;
             
         }
+        // method calculates gross pay
 
         public void adjustPay(double pay)
 
@@ -59,10 +71,15 @@ namespace Assignment_12_George
 
         static void Main(string[] args)
         {
+            // create object
             myPayfile myPayfile = new myPayfile();
+
+            // add attributes to object
             myPayfile.getFirst_Name();
             myPayfile.getLast_Name();
             myPayfile.getGross_Pay();
+
+            // print results
 
             Console.WriteLine("The adjusted pay is $" + myPayfile.gross_pay + " for " + myPayfile.first_name + " " + myPayfile.last_name);
             Console.Write("Press any key to continue...");
