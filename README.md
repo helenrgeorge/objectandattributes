@@ -2,11 +2,10 @@
 
 using System;
 
-namespace Assignment_12_George
-{
-
-    // create class
-
+namespace Assignment_12_George   // Helen George
+{                               // March 2nd, 2021
+    // create class            Week 12 Assignment
+                            // Create an object, add attributes and print results
     class myPayfile
     {
         // define variables
